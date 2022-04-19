@@ -1,7 +1,7 @@
 public class student {
     String studentId;
     String name;
-    int marks[];
+    int[] marks = new int[4];
 
     public void calResult(student ob)
     {
