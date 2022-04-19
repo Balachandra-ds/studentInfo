@@ -1,3 +1,5 @@
+package studentInfo;
+
 import java.util.*;
 public class classmain {
 
@@ -13,8 +15,11 @@ public class classmain {
         {
             obj1.marks[i]= sc.nextInt();
         }
+        sc.close();
         obj1.calResult(obj1);
         obj1.test(obj1);
+        //String res=obj2.grade(p);
+       // System.out.println(res);
     }
     
 }
