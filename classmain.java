@@ -14,6 +14,7 @@ public class classmain {
             obj1.marks[i]= sc.nextInt();
         }
         obj1.calResult(obj1);
+        obj1.test(obj1);
     }
     
 }
